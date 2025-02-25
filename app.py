@@ -12,15 +12,12 @@ from models import User
 
 api = FastAPI()
 
-# --- Configuration ---
 SECRET_KEY = secrets.token_urlsafe(32)
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token") 
 
-
-# --- Helper Functions ---
 def get_hashed_password(password):
     return pwd_context.hash(password)
 
