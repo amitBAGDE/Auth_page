@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is a Python application that interacts with a PostgreSQL database. It uses FastAPI as a web framework (`app.py`) and SQLAlchemy for database interactions (`database.py`, `models.py`). The project includes testing files (`db_test.py`, `test.py`) to ensure functionality.
+This project is a Python application that interacts with a PostgreSQL database. It uses FastAPI as a web framework (`app.py`) and SQLAlchemy for database interactions (`database.py`, `models.py`)
 
 ## Installation
 
@@ -41,13 +41,7 @@ To run the application, execute the following command in your terminal:
 python app.py
 ```
 
-## Testing
 
-To run database related tests:
-
-```bash
-python db_test.py
-```
 
 To run other tests:
 
