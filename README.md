@@ -42,8 +42,3 @@ python app.py
 ```
 
 
-
-To run other tests:
-
-```bash
-python test.py
